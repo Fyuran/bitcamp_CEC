@@ -1,0 +1,221 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="CapraECavoli - Home" />
+    <meta name="keywords" content="hotel, alberghi, bed & breakfast, breakfast, pernottamento, feste, eventi, prenotazioni, capra e cavoli" />
+    <meta name="author" content="Classe Bitcamp PT Team 1" />
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <title>Capra &amp; Cavoli - Home</title>
+    <style>
+        body {
+            background: radial-gradient(#317c00, #72c736);
+            background-attachment: fixed;
+            position: relative;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+            background: #72c736;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #FFBD59;
+            border-radius: 10px;
+            height: 50px;
+        }
+
+        .nav-link {
+            color: white !important;
+        }
+        .nav-pills .nav-link.active,
+        .nav-pills .show > .nav-link {
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#homepage_navbar">
+    <!--NAVBAR STICKY TOP-->
+    <nav class="navbar sticky-top shadow-lg" id="homepage_navbar" style="background: linear-gradient(#ff8300, #b05a00); ">
+        <ul class="nav nav-pills mx-auto">
+            <li class="nav-item fs-2">
+                <a class="nav-link" href="#homepage_carousel">Home</a>
+            </li>
+            <li class="nav-item nav-pills fs-2">
+                <a class="nav-link" href="#camere">Camere</a>
+            </li>
+            <li class="nav-item nav-pills fs-2">
+                <a class="nav-link" href="#galleria">Galleria</a>
+            </li>
+        </ul>
+        <a class="navbar-brand mx-auto" href="#">
+            <img src="img/logo.png" style="max-height:100px;">
+        </a>
+        <ul class="nav mx-auto">
+            <li class="nav-item nav-pills fs-2">
+                <a class="nav-link" href="#prenotazioni">Prenotazioni &amp; contatti</a>
+            </li>
+            <li class="nav-item nav-pills fs-2">
+                <a class="nav-link" href="#eventi">Eventi</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!--CAROUSEL AUTO TOP-->
+    <div id="homepage_carousel" class="carousel slide mt-3 shadow-lg active" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://placehold.co/1024x200" class="d-block mx-auto w-100" alt="homepage_carousel_1">
+            </div>
+            <div class="carousel-item">
+                <img src="https://placehold.co/1024x200" class="d-block mx-auto w-100" alt="homepage_carousel_2">
+            </div>
+            <div class="carousel-item">
+                <img src="https://placehold.co/1024x200" class="d-block mx-auto w-100" alt="homepage_carousel_3">
+            </div>
+        </div>
+    </div>
+    <!--MESSAGGIO BENVENUTO-->
+    <div class="container-fluid p-3 text-light text-center">
+        <h2 style="text-shadow: 2px 2px black">Benvenuti a Capra &amp; Cavoli</h2>
+    </div>
+    <div class="container-md text-center text-light text-wrap my-3 rounded-pill shadow-lg">
+        <p class="p-3">
+            Il nostro bed and breakfast si distingue per la sua atmosfera unica e ospitale,
+            immerso in un contesto paesaggistico suggestivo. Desideriamo trasmettere questa
+            sensazione di calore e accoglienza attraverso il sito web, offrendo ai nostri visitatori
+            una panoramica completa delle nostre offerte e delle esperienze uniche che
+            offriamo.
+        </p>
+        <div>
+            <a class="btn btn-primary" href="#" role="button">Clicca qui per scoprire di più</a>
+        </div>
+    </div>
+
+    <!--SERVIZI OFFERTI E ANTEMPRIMA GALLERIA-->
+    <div class="container-lg my-3 shadow-lg" style="background-color:orange; border-radius:10px;">
+        <!--Riquadro a sinistra-->
+        <div class="row">
+            <div class="col m-3 p-3" style="background-color: #ee7b01; ">
+                <h2 class="text-center">Servizi offerti</h2>
+                <div class="d-flex">
+                    <ul class="list mx-auto justify-content-center">
+                        <li class="list-item my-3">Early check-in e Late check-out</li>
+                        <li class="list-item my-3">Parcheggio privato o in convenzione</li>
+                        <li class="list-item my-3">Trasferimento da/per stazione/aeroporto</li>
+                        <li class="list-item my-3">Drink di benvenuto</li>
+                        <li class="list-item my-3">Upgrade della camera</li>
+                        <li class="list-item my-3">Mappa dei luoghi più instagrammabili</li>
+                        <li class="list-item my-3">Guide turistiche, convenzioni con musei</li>
+                        <li class="list-item my-3">Servizio sveglia</li>
+                        <li class="list-item my-3">Servizi pet-friendly</li>
+                    </ul>
+                </div>
+                <div class="text-center">
+                    <a class="btn btn-primary" href="#" role="button">Clicca qui per scoprire di più</a>
+                </div>
+            </div>
+
+            <!--Riquadro a destra-->
+            <div class="col m-3 p-3" style="background-color: #ee7b01; ">
+                <h2 class="text-center">Anteprima galleria</h2>
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                        <img src="https://placehold.co/1024x800"
+                             class="w-100 shadow-lg-1-strong rounded mb-4"
+                             alt="homepage_galleria_1" />
+
+                        <img src="https://placehold.co/600x1024"
+                             class="w-100 shadow-lg-1-strong rounded mb-4"
+                             alt="homepage_galleria_2" />
+                    </div>
+
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                        <img src="https://placehold.co/600x1024"
+                             class="w-100 shadow-lg-1-strong rounded mb-4"
+                             alt="homepage_galleria_3" />
+
+                        <img src="https://placehold.co/1024x800"
+                             class="w-100 shadow-lg-1-strong rounded mb-4"
+                             alt="homepage_galleria_4" />
+                    </div>
+
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                        <img src="https://placehold.co/1024x800"
+                             class="w-100 shadow-lg-1-strong rounded mb-4"
+                             alt="homepage_galleria_5" />
+
+                        <img src="https://placehold.co/800x1024"
+                             class="w-100 shadow-lg-1-strong rounded mb-4"
+                             alt="homepage_galleria_6" />
+                    </div>
+                    <div class="text-center">
+                        <a class="btn btn-primary" href="#" role="button">Clicca qui per scoprire di più</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---->
+
+    <h2 id="camere">Camere</h2>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempor pharetra ex, a cursus arcu viverra iaculis. Donec dictum dignissim est. Cras non fermentum nunc, sit amet pharetra felis. Nullam semper quam vitae tellus sagittis, eget porttitor lectus imperdiet. Nullam eu elementum lectus. Proin ac ultricies orci, elementum eleifend magna. Proin lacinia viverra augue, a ornare nisl pulvinar sed. Mauris aliquam mauris ipsum, eu volutpat tortor mollis ac. Sed congue mauris ipsum, ac commodo diam porttitor vitae. Proin vulputate nunc nec mauris venenatis, mattis facilisis ante lacinia.
+
+    Fusce eleifend porttitor mi. Aliquam sed purus ut mi pharetra fermentum non id sem. Proin interdum justo eu ipsum fermentum consectetur. Vestibulum molestie nisi neque, eget mattis ligula lacinia a. Donec facilisis mauris purus, fermentum imperdiet metus molestie eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam posuere nec dui vitae sollicitudin. Proin non commodo nibh. Aenean sed tellus pellentesque, vulputate massa sit amet, egestas ex. Donec interdum hendrerit eros non lacinia. Fusce ut dolor leo. Ut sit amet tempus augue. Proin auctor molestie orci eu convallis. Cras in velit id erat volutpat placerat nec sit amet dui. Nulla odio lorem, finibus sed mauris vel, luctus fringilla ipsum.
+
+    Cras dignissim eu risus ac aliquam. Nullam gravida condimentum quam eget cursus. Sed condimentum nulla eu mauris posuere fermentum. Phasellus lobortis nisi at tellus vestibulum feugiat. Integer vehicula bibendum venenatis. Quisque nec nulla a leo aliquet convallis vitae nec eros. Nullam mollis elit sed velit varius, non faucibus lectus pharetra. Sed fringilla quam et aliquam scelerisque. Vestibulum cursus lacus nec eros tempus mattis. Aliquam in mi rhoncus, ultrices enim sed, ultricies dui.
+
+    Fusce libero ex, pretium at nulla sed, sollicitudin pellentesque massa. Sed id elit vel lorem pulvinar tincidunt. Fusce rutrum odio sit amet fermentum congue. Sed leo felis, ornare ut elit vestibulum, ultricies lacinia urna. Nunc risus nulla, elementum eu venenatis ac, bibendum eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mollis lacinia justo, sed dignissim dui. Pellentesque tincidunt sollicitudin porta. Mauris eu massa id ante mattis egestas. Vestibulum non ante dui. Nulla ut dui in neque dictum iaculis maximus et arcu. Duis vehicula augue id ipsum suscipit, in varius velit suscipit. Nam dolor eros, tristique id semper sed, luctus at nunc. In id nunc id tortor fermentum gravida.
+
+    Curabitur quis purus laoreet felis pharetra scelerisque. Vestibulum volutpat hendrerit massa, ut tincidunt risus commodo in. Mauris vitae eros id arcu maximus mattis et a mi. Aliquam rhoncus in mi vitae porta. Fusce sed odio dui. Nulla facilisi. Curabitur volutpat odio ac mauris sodales lobortis. Fusce volutpat urna in dui congue, at pellentesque ex tempor. Sed pretium massa a elit maximus, vitae aliquam leo egestas. Integer sit amet consequat purus. Praesent egestas ullamcorper dapibus. Morbi tempor odio in leo commodo egestas. Mauris ac purus purus. Mauris vel ligula vitae dui interdum maximus nec et risus. Aenean consequat aliquam nunc, tempor sollicitudin diam dapibus ut. Integer accumsan augue et auctor hendrerit.
+    <footer>
+        <div class="container-fluid w-100 text-center shadow-lg" style="background-color:orange;">
+            <h2 class="text-center">I nostri contatti</h2>
+            <div class="row">
+                <div class="col">
+                    <address>
+                        <b>Capra &amp; Cavoli</b> <br />
+                        Indirizzo: Via Cavoli, 666(MI) <br />
+                        Telefono: 023 1231241241 <br />
+                        e-mail: info@capraandcavoli.org
+                    </address>
+
+                </div>
+                <div class="col">
+                    <div class="fs-2 mb-3">
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-twitter"></i>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-youtube"></i>
+                    </div>
+                    <div>
+                        <div class="fs-4">
+                            BitCamp Team 1:
+                            <a href="https://github.com/Fyuran" style="color:#212529">
+                                <i class="bi bi-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/daniel-camuffo-79359826b/" style="color:#212529">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>&copy; 2024 Capre &amp; Cavoli - tutti i diritti riservati</p>
+        </div>
+    </footer>
+</body>
+</html>
