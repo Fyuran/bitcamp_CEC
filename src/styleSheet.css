@@ -1,0 +1,188 @@
+@layer bootstrap, storia, camere, eventi, galleria, prenotaContatti, homepage;
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css") layer(bootstrap);
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css") layer(bootstrap);
+
+
+@layer homepage {
+    /*Bootstrap edits*/
+    .nav-link {
+        color: white !important;
+    }
+
+    .nav-pills .nav-link.active,
+    .nav-pills .show > .nav-link {
+        color: #fff !important;
+        background-color: rgba(0, 0, 0, 0.2) !important;
+    }
+
+    .btn-primary {
+        background-color: rgba(0, 0, 0, 0.2) !important;
+        border-color: rgba(255, 255, 255, 0.2) !important;
+    }
+    /*-----------------*/
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background: radial-gradient(#317c00, #72c736);
+        background-attachment: fixed;
+        position: relative;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    nav {
+        background: linear-gradient(#ff8300, #b05a00);
+    }
+
+    ::-webkit-scrollbar {
+        width: 8px;
+        background: #72c736;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #FFBD59;
+        border-radius: 10px;
+        height: 50px;
+    }
+
+    h1 {
+        text-shadow: 2px 2px black;
+    }
+}
+
+@layer prenotaContatti {
+    .form {
+        background-color: #FFBD59;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+
+        .form input {
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .form label {
+            font-size: 16px;
+            color: white;
+            text-shadow: 2px 2px 2px #333;
+            font-weight: bold;
+        }
+
+        .form button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #F77705;
+            border: none;
+            font-weight: bold;
+        }
+
+            .form button:hover {
+                background-color: #ffcf0e;
+                color: #333;
+            }
+
+    .imgPrenotazioni {
+        width: 100%;
+        height: 620px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin: 20px 0;
+    }
+}
+
+
+@layer storia {
+    .container h2 {
+        margin-top: 40px;
+        font-size: 36px;
+        color: white;
+        text-shadow: 2px 2px 2px #333;
+        text-align: center;
+    }
+
+    .container p {
+        font-size: 16px;
+        color: #fff;
+        text-shadow: 2px 2px 2px #333;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .container h3 {
+        font-size: 24px;
+        color: white;
+        text-shadow: 2px 2px 2px #333;
+        text-align: center;
+        margin: 20px;
+    }
+
+    .container .descrizione {
+        font-size: 16px;
+        overflow-y: auto;
+        height: 300px;
+    }
+
+    .imgStoria {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin: 20px 0;
+    }
+
+
+    .li-nostraStoria {
+        font-size: 16px;
+        color: #fff;
+        text-shadow: 2px 2px 2px #333;
+        list-style: none;
+        text-transform: uppercase;
+    }
+}
+
+@layer camere {
+    .box-transparent {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 6px;
+    }
+
+    .card {
+        margin: 0 auto;
+        float: none;
+        background: #FFBD59;
+    }
+
+    .custom-button {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        background-color: #F77705;
+        border: none;
+        font-weight: bold;
+    }
+
+        .custom-button:hover {
+            background-color: #ffcf0e;
+            color: #333;
+        }
+
+    .accordion-item {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .btn-light {
+        background-color: #F77705;
+        border: none;
+        border-radius: 0px;
+    }
+}
+
