@@ -233,10 +233,6 @@
         border-radius: 10px;
     }
 
-    .container {
-        max-width: 100%;
-    }
-
     @media (max-width: 768px) {
         .custom-card {
             flex-direction: column;
